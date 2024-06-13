@@ -70,7 +70,7 @@ async fn request_openai(prompt: &str, api_key: &str) -> Result<String, Box<dyn s
 async fn main() {
     let addr = "0.0.0.0:7746";
     let listener = TcpListener::bind(&addr).await.expect("Failed to bind");
-
+    
     println!("Listening on: {}", addr);
     
     let api_key = "sk-proj-6wrWCt8PxMTirlQo3VnlT3BlbkFJ3OOnxw4falfMYCaWn9ur";
