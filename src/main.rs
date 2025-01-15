@@ -73,7 +73,7 @@ async fn main() {
     
     println!("Listening on: {}", addr);
     
-    let api_key = "sk-proj-6wrWCt8PxMTirlQo3VnlT3BlbkFJ3OOnxw4falfMYCaWn9ur";
+    let api_key = "";
 
     while let Ok((stream, _)) = listener.accept().await {
 
